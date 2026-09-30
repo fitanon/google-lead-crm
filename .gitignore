@@ -1,0 +1,6 @@
+.vercel/
+*.png
+clean_data.json
+leads_full.json
+raw_full.json
+pivot_app/index.html
