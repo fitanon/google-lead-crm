@@ -3,8 +3,10 @@
 Leads-first CRM + pivot explorer for the Official Client Questionnaire V2 (Google Sheet, tab "Yes").
 
 ## Structure
-- `build_app.py` — generates the single-file app (`pivot_app/index.html`) with data embedded from `clean_data.json` (pivot) and `leads_full.json` (full lead responses).
-- `pivot_app/index.html` — the built app (leads list, phase tabs, one-pager lead views, weekly summary, pivot explorer).
+- `build_app.py` — generates the single-file app from protected local data files.
+- `pivot_app_vercel/middleware.js` — staff password gate for the protected deployment.
+
+The generated app and lead data are intentionally excluded from this public repository. Use the private source repository for data-backed builds.
 
 ## Rebuild
 ```
